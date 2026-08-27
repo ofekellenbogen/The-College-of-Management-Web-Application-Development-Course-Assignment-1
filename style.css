@@ -244,6 +244,8 @@ body {
 .hero-card {
   position: relative;
   overflow: hidden;
+  isolation: isolate;
+  -webkit-mask-image: -webkit-radial-gradient(white, black);
 }
 
 .hero-card:hover, .content-card:hover {
